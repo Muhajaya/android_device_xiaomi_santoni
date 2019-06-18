@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
 
 # Inherit some common Carbon stuff
-$(call inherit-product, vendor/stag/config/common.mk)
+$(call inherit-product, vendor/stag/main.mk)
 
 # Inherit Carbon GSM telephony parts
 #$(call inherit-product, vendor/carbon/config/gsm.mk)
